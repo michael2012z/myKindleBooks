@@ -31,6 +31,10 @@ class WebPageParser(HTMLParser):
 
     def __init__(self):
         HTMLParser.__init__(self)
+        self.text = []
+        self.textOn = False
+        self.textPiece = ""
+        self.cClass = "content"
 
     def parse(self, html):
         try:
