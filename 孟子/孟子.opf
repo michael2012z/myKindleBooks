@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <package unique-identifier="uid" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:asd="http://www.idpf.org/asdfaf">
     <metadata>
@@ -12,39 +13,41 @@
     <manifest>
         <item id="text" media-type="text/x-oeb1-document" href="welcome.html"></item>
         <item id="content" media-type="text/x-oeb1-document" href="toc.html"></item>
-		<item id="ch1" media-type="text/x-oeb1-document" href="孟子_梁惠王上.html"></item>
-		<item id="ch2" media-type="text/x-oeb1-document" href="孟子_梁惠王下.html"></item>
-		<item id="ch3" media-type="text/x-oeb1-document" href="孟子_公孫丑上.html"></item>
-		<item id="ch4" media-type="text/x-oeb1-document" href="孟子_公孫丑下.html"></item>
-		<item id="ch5" media-type="text/x-oeb1-document" href="孟子_滕文公上.html"></item>
-		<item id="ch6" media-type="text/x-oeb1-document" href="孟子_滕文公下.html"></item>
-		<item id="ch7" media-type="text/x-oeb1-document" href="孟子_離婁上.html"></item>
-		<item id="ch8" media-type="text/x-oeb1-document" href="孟子_離婁下.html"></item>
-		<item id="ch9" media-type="text/x-oeb1-document" href="孟子_萬章上.html"></item>
-		<item id="ch10" media-type="text/x-oeb1-document" href="孟子_萬章下.html"></item>
-		<item id="ch11" media-type="text/x-oeb1-document" href="孟子_告子上.html"></item>
-		<item id="ch12" media-type="text/x-oeb1-document" href="孟子_告子下.html"></item>
-		<item id="ch13" media-type="text/x-oeb1-document" href="孟子_盡心上.html"></item>
-		<item id="ch14" media-type="text/x-oeb1-document" href="孟子_盡心下.html"></item>
+<item id="ch1" media-type="text/x-oeb1-document" href="孟子_梁惠王上.html" />
+<item id="ch2" media-type="text/x-oeb1-document" href="孟子_梁惠王下.html" />
+<item id="ch3" media-type="text/x-oeb1-document" href="孟子_公孫丑上.html" />
+<item id="ch4" media-type="text/x-oeb1-document" href="孟子_公孫丑下.html" />
+<item id="ch5" media-type="text/x-oeb1-document" href="孟子_滕文公上.html" />
+<item id="ch6" media-type="text/x-oeb1-document" href="孟子_滕文公下.html" />
+<item id="ch7" media-type="text/x-oeb1-document" href="孟子_離婁上.html" />
+<item id="ch8" media-type="text/x-oeb1-document" href="孟子_離婁下.html" />
+<item id="ch9" media-type="text/x-oeb1-document" href="孟子_萬章上.html" />
+<item id="ch10" media-type="text/x-oeb1-document" href="孟子_萬章下.html" />
+<item id="ch11" media-type="text/x-oeb1-document" href="孟子_告子上.html" />
+<item id="ch12" media-type="text/x-oeb1-document" href="孟子_告子下.html" />
+<item id="ch13" media-type="text/x-oeb1-document" href="孟子_盡心上.html" />
+<item id="ch14" media-type="text/x-oeb1-document" href="孟子_盡心下.html" />
+
         <item id="ncx" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
     </manifest>
     <spine toc="ncx">
         <itemref idref="text"/>
         <itemref idref="content"/>
-        <itemref idref="ch1"/>
-        <itemref idref="ch2"/>
-        <itemref idref="ch3"/>
-        <itemref idref="ch4"/>
-        <itemref idref="ch5"/>
-        <itemref idref="ch6"/>
-        <itemref idref="ch7"/>
-        <itemref idref="ch8"/>
-        <itemref idref="ch9"/>
-        <itemref idref="ch10"/>
-        <itemref idref="ch11"/>
-        <itemref idref="ch12"/>
-        <itemref idref="ch13"/>
-        <itemref idref="ch14"/>
+<itemref idref="ch1"/>
+<itemref idref="ch2"/>
+<itemref idref="ch3"/>
+<itemref idref="ch4"/>
+<itemref idref="ch5"/>
+<itemref idref="ch6"/>
+<itemref idref="ch7"/>
+<itemref idref="ch8"/>
+<itemref idref="ch9"/>
+<itemref idref="ch10"/>
+<itemref idref="ch11"/>
+<itemref idref="ch12"/>
+<itemref idref="ch13"/>
+<itemref idref="ch14"/>
+
     </spine>
     <guide>
         <reference type="toc" title="Table of Contents" href="toc.html"/>

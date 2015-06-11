@@ -99,6 +99,43 @@ ncxText3 = '''
 </ncx>\n'''
 
 
+opfText1 = '''
+<?xml version="1.0" encoding="utf-8"?>
+<package unique-identifier="uid" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:asd="http://www.idpf.org/asdfaf">
+    <metadata>
+        <dc-metadata  xmlns:dc="http://purl.org/metadata/dublin_core" xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+            <dc:Title>'''
+opfText2 = '''</dc:Title>
+            <dc:Language>zh-TW</dc:Language>
+            <dc:Creator>第二月</dc:Creator>
+            <dc:Copyrights>第二月</dc:Copyrights>
+            <dc:Publisher>第二月</dc:Publisher>
+        </dc-metadata>
+    </metadata>
+    <manifest>
+        <item id="text" media-type="text/x-oeb1-document" href="welcome.html"></item>
+        <item id="content" media-type="text/x-oeb1-document" href="toc.html"></item>
+'''
+
+opfText3 = '''
+        <item id="ncx" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="text"/>
+        <itemref idref="content"/>
+'''
+
+opfText4 = '''
+    </spine>
+    <guide>
+        <reference type="toc" title="Table of Contents" href="toc.html"/>
+        <reference type="text" title="'''
+
+opfText5 = '''" href="welcome.html"/>
+    </guide>
+</package>
+'''
+
 if __name__ == '__main__':
     for book in bookList:
         bookName = book[0]
@@ -149,7 +186,6 @@ if __name__ == '__main__':
         ncxText = ncxText1
         ncxText += bookName
         ncxText += ncxText2
-        i = 0
         ncxText += '''
 		<navPoint id="toc" playOrder="1">
 			<navLabel>
@@ -159,6 +195,7 @@ if __name__ == '__main__':
 			</navLabel>
 			<content src="toc.html#toc" />
 		</navPoint>'''
+        i = 0
         for chapter in chapterList:
             i += 1
             fileName = bookName + "_" + chapter + ".html"
@@ -175,3 +212,34 @@ if __name__ == '__main__':
         f = open(bookName + "/toc.ncx", 'w')
         f.write(ncxText)
         f.close()
+
+        # generate welcome page
+        htmlText = htmlText1
+        htmlText += bookName
+        htmlText += htmlText2
+        htmlText += '<h1>' + bookName+ '</h1>\n'
+        htmlText += htmlText3
+        f = open(bookName + "/welcome.html", 'w')
+        f.write(htmlText)
+        f.close()
+
+        # generate opf page
+        opfText = opfText1
+        opfText += bookName
+        opfText += opfText2
+        i = 0
+        for chapter in chapterList:
+            i += 1
+            opfText += '<item id="ch' + str(i) + '" media-type="text/x-oeb1-document" href="' + bookName + '_' + chapter + '.html" />\n'
+        opfText += opfText3
+        i = 0
+        for chapter in chapterList:
+            i += 1
+            opfText += '<itemref idref="ch' + str(i) + '"/>\n'
+        opfText += opfText4
+        opfText += bookName
+        opfText += opfText5
+        f = open(bookName + "/" + bookName +".opf", 'w')
+        f.write(opfText)
+        f.close()
+
