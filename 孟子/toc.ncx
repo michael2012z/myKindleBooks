@@ -1,0 +1,135 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" 
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+ <head>
+ </head>
+        <docTitle>
+               <text>孟子</text>
+        </docTitle>
+    <navMap>
+
+		<navPoint id="toc" playOrder="1">
+			<navLabel>
+				<text>
+					Table of Contents
+				</text>
+			</navLabel>
+			<content src="toc.html#toc" />
+		</navPoint>
+		<navPoint id="ch1" playOrder="2">
+			<navLabel>
+				<text>
+					梁惠王上
+				</text>
+			</navLabel>
+			<content src="孟子_梁惠王上.html#ch1" />
+		</navPoint>
+		<navPoint id="ch2" playOrder="3">
+			<navLabel>
+				<text>
+					梁惠王下
+				</text>
+			</navLabel>
+			<content src="孟子_梁惠王下.html#ch2" />
+		</navPoint>
+		<navPoint id="ch3" playOrder="4">
+			<navLabel>
+				<text>
+					公孫丑上
+				</text>
+			</navLabel>
+			<content src="孟子_公孫丑上.html#ch3" />
+		</navPoint>
+		<navPoint id="ch4" playOrder="5">
+			<navLabel>
+				<text>
+					公孫丑下
+				</text>
+			</navLabel>
+			<content src="孟子_公孫丑下.html#ch4" />
+		</navPoint>
+		<navPoint id="ch5" playOrder="6">
+			<navLabel>
+				<text>
+					滕文公上
+				</text>
+			</navLabel>
+			<content src="孟子_滕文公上.html#ch5" />
+		</navPoint>
+		<navPoint id="ch6" playOrder="7">
+			<navLabel>
+				<text>
+					滕文公下
+				</text>
+			</navLabel>
+			<content src="孟子_滕文公下.html#ch6" />
+		</navPoint>
+		<navPoint id="ch7" playOrder="8">
+			<navLabel>
+				<text>
+					離婁上
+				</text>
+			</navLabel>
+			<content src="孟子_離婁上.html#ch7" />
+		</navPoint>
+		<navPoint id="ch8" playOrder="9">
+			<navLabel>
+				<text>
+					離婁下
+				</text>
+			</navLabel>
+			<content src="孟子_離婁下.html#ch8" />
+		</navPoint>
+		<navPoint id="ch9" playOrder="10">
+			<navLabel>
+				<text>
+					萬章上
+				</text>
+			</navLabel>
+			<content src="孟子_萬章上.html#ch9" />
+		</navPoint>
+		<navPoint id="ch10" playOrder="11">
+			<navLabel>
+				<text>
+					萬章下
+				</text>
+			</navLabel>
+			<content src="孟子_萬章下.html#ch10" />
+		</navPoint>
+		<navPoint id="ch11" playOrder="12">
+			<navLabel>
+				<text>
+					告子上
+				</text>
+			</navLabel>
+			<content src="孟子_告子上.html#ch11" />
+		</navPoint>
+		<navPoint id="ch12" playOrder="13">
+			<navLabel>
+				<text>
+					告子下
+				</text>
+			</navLabel>
+			<content src="孟子_告子下.html#ch12" />
+		</navPoint>
+		<navPoint id="ch13" playOrder="14">
+			<navLabel>
+				<text>
+					盡心上
+				</text>
+			</navLabel>
+			<content src="孟子_盡心上.html#ch13" />
+		</navPoint>
+		<navPoint id="ch14" playOrder="15">
+			<navLabel>
+				<text>
+					盡心下
+				</text>
+			</navLabel>
+			<content src="孟子_盡心下.html#ch14" />
+		</navPoint>
+
+	</navMap>
+</ncx>
