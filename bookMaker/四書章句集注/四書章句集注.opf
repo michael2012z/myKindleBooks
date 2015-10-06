@@ -1,0 +1,110 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<package unique-identifier="uid" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:asd="http://www.idpf.org/asdfaf">
+    <metadata>
+        <dc-metadata  xmlns:dc="http://purl.org/metadata/dublin_core" xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+            <dc:Title>四書章句集注</dc:Title>
+            <dc:Language>zh-TW</dc:Language>
+            <dc:Creator>第二月</dc:Creator>
+            <dc:Copyrights>第二月</dc:Copyrights>
+            <dc:Publisher>第二月</dc:Publisher>
+        </dc-metadata>
+    </metadata>
+    <manifest>
+        <item id="text" media-type="text/x-oeb1-document" href="welcome.html"></item>
+        <item id="content" media-type="text/x-oeb1-document" href="toc.html"></item>
+<item id="ch1" media-type="text/x-oeb1-document" href="四書章句集注_大學章句序.html" />
+<item id="ch2" media-type="text/x-oeb1-document" href="四書章句集注_大學章句.html" />
+<item id="ch3" media-type="text/x-oeb1-document" href="四書章句集注_中庸章句序.html" />
+<item id="ch4" media-type="text/x-oeb1-document" href="四書章句集注_中庸章句.html" />
+<item id="ch5" media-type="text/x-oeb1-document" href="四書章句集注_論語序說.html" />
+<item id="ch6" media-type="text/x-oeb1-document" href="四書章句集注_讀論語孟子法.html" />
+<item id="ch7" media-type="text/x-oeb1-document" href="四書章句集注_學而第一.html" />
+<item id="ch8" media-type="text/x-oeb1-document" href="四書章句集注_為政第二.html" />
+<item id="ch9" media-type="text/x-oeb1-document" href="四書章句集注_八佾第三.html" />
+<item id="ch10" media-type="text/x-oeb1-document" href="四書章句集注_里仁第四.html" />
+<item id="ch11" media-type="text/x-oeb1-document" href="四書章句集注_公冶長第五.html" />
+<item id="ch12" media-type="text/x-oeb1-document" href="四書章句集注_雍也第六.html" />
+<item id="ch13" media-type="text/x-oeb1-document" href="四書章句集注_述而第七.html" />
+<item id="ch14" media-type="text/x-oeb1-document" href="四書章句集注_泰伯第八.html" />
+<item id="ch15" media-type="text/x-oeb1-document" href="四書章句集注_子罕第九.html" />
+<item id="ch16" media-type="text/x-oeb1-document" href="四書章句集注_鄉黨第十.html" />
+<item id="ch17" media-type="text/x-oeb1-document" href="四書章句集注_先進第十一.html" />
+<item id="ch18" media-type="text/x-oeb1-document" href="四書章句集注_顏淵第十二.html" />
+<item id="ch19" media-type="text/x-oeb1-document" href="四書章句集注_子路第十三.html" />
+<item id="ch20" media-type="text/x-oeb1-document" href="四書章句集注_憲問第十四.html" />
+<item id="ch21" media-type="text/x-oeb1-document" href="四書章句集注_衛靈公第十五.html" />
+<item id="ch22" media-type="text/x-oeb1-document" href="四書章句集注_季氏第十六.html" />
+<item id="ch23" media-type="text/x-oeb1-document" href="四書章句集注_陽貨第十七.html" />
+<item id="ch24" media-type="text/x-oeb1-document" href="四書章句集注_微子第十八.html" />
+<item id="ch25" media-type="text/x-oeb1-document" href="四書章句集注_子張第十九.html" />
+<item id="ch26" media-type="text/x-oeb1-document" href="四書章句集注_堯曰第二十.html" />
+<item id="ch27" media-type="text/x-oeb1-document" href="四書章句集注_孟子序說.html" />
+<item id="ch28" media-type="text/x-oeb1-document" href="四書章句集注_梁惠王章句上.html" />
+<item id="ch29" media-type="text/x-oeb1-document" href="四書章句集注_梁惠王章句下.html" />
+<item id="ch30" media-type="text/x-oeb1-document" href="四書章句集注_公孫丑章句上.html" />
+<item id="ch31" media-type="text/x-oeb1-document" href="四書章句集注_公孫丑章句下.html" />
+<item id="ch32" media-type="text/x-oeb1-document" href="四書章句集注_滕文公章句上.html" />
+<item id="ch33" media-type="text/x-oeb1-document" href="四書章句集注_滕文公章句下.html" />
+<item id="ch34" media-type="text/x-oeb1-document" href="四書章句集注_離婁章句上.html" />
+<item id="ch35" media-type="text/x-oeb1-document" href="四書章句集注_離婁章句下.html" />
+<item id="ch36" media-type="text/x-oeb1-document" href="四書章句集注_萬章章句上.html" />
+<item id="ch37" media-type="text/x-oeb1-document" href="四書章句集注_萬章章句下.html" />
+<item id="ch38" media-type="text/x-oeb1-document" href="四書章句集注_告子章句上.html" />
+<item id="ch39" media-type="text/x-oeb1-document" href="四書章句集注_告子章句下.html" />
+<item id="ch40" media-type="text/x-oeb1-document" href="四書章句集注_盡心章句上.html" />
+<item id="ch41" media-type="text/x-oeb1-document" href="四書章句集注_盡心章句下.html" />
+
+        <item id="ncx" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="text"/>
+        <itemref idref="content"/>
+<itemref idref="ch1"/>
+<itemref idref="ch2"/>
+<itemref idref="ch3"/>
+<itemref idref="ch4"/>
+<itemref idref="ch5"/>
+<itemref idref="ch6"/>
+<itemref idref="ch7"/>
+<itemref idref="ch8"/>
+<itemref idref="ch9"/>
+<itemref idref="ch10"/>
+<itemref idref="ch11"/>
+<itemref idref="ch12"/>
+<itemref idref="ch13"/>
+<itemref idref="ch14"/>
+<itemref idref="ch15"/>
+<itemref idref="ch16"/>
+<itemref idref="ch17"/>
+<itemref idref="ch18"/>
+<itemref idref="ch19"/>
+<itemref idref="ch20"/>
+<itemref idref="ch21"/>
+<itemref idref="ch22"/>
+<itemref idref="ch23"/>
+<itemref idref="ch24"/>
+<itemref idref="ch25"/>
+<itemref idref="ch26"/>
+<itemref idref="ch27"/>
+<itemref idref="ch28"/>
+<itemref idref="ch29"/>
+<itemref idref="ch30"/>
+<itemref idref="ch31"/>
+<itemref idref="ch32"/>
+<itemref idref="ch33"/>
+<itemref idref="ch34"/>
+<itemref idref="ch35"/>
+<itemref idref="ch36"/>
+<itemref idref="ch37"/>
+<itemref idref="ch38"/>
+<itemref idref="ch39"/>
+<itemref idref="ch40"/>
+<itemref idref="ch41"/>
+
+    </spine>
+    <guide>
+        <reference type="toc" title="Table of Contents" href="toc.html"/>
+        <reference type="text" title="四書章句集注" href="welcome.html"/>
+    </guide>
+</package>

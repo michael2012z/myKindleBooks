@@ -1,0 +1,94 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<package unique-identifier="uid" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:asd="http://www.idpf.org/asdfaf">
+    <metadata>
+        <dc-metadata  xmlns:dc="http://purl.org/metadata/dublin_core" xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+            <dc:Title>莊子</dc:Title>
+            <dc:Language>zh-TW</dc:Language>
+            <dc:Creator>第二月</dc:Creator>
+            <dc:Copyrights>第二月</dc:Copyrights>
+            <dc:Publisher>第二月</dc:Publisher>
+        </dc-metadata>
+    </metadata>
+    <manifest>
+        <item id="text" media-type="text/x-oeb1-document" href="welcome.html"></item>
+        <item id="content" media-type="text/x-oeb1-document" href="toc.html"></item>
+<item id="ch1" media-type="text/x-oeb1-document" href="莊子_逍遙遊.html" />
+<item id="ch2" media-type="text/x-oeb1-document" href="莊子_齊物論.html" />
+<item id="ch3" media-type="text/x-oeb1-document" href="莊子_養生主.html" />
+<item id="ch4" media-type="text/x-oeb1-document" href="莊子_人間世.html" />
+<item id="ch5" media-type="text/x-oeb1-document" href="莊子_德充符.html" />
+<item id="ch6" media-type="text/x-oeb1-document" href="莊子_大宗師.html" />
+<item id="ch7" media-type="text/x-oeb1-document" href="莊子_應帝王.html" />
+<item id="ch8" media-type="text/x-oeb1-document" href="莊子_駢拇.html" />
+<item id="ch9" media-type="text/x-oeb1-document" href="莊子_馬蹄.html" />
+<item id="ch10" media-type="text/x-oeb1-document" href="莊子_胠篋.html" />
+<item id="ch11" media-type="text/x-oeb1-document" href="莊子_在宥.html" />
+<item id="ch12" media-type="text/x-oeb1-document" href="莊子_天地.html" />
+<item id="ch13" media-type="text/x-oeb1-document" href="莊子_天道.html" />
+<item id="ch14" media-type="text/x-oeb1-document" href="莊子_天運.html" />
+<item id="ch15" media-type="text/x-oeb1-document" href="莊子_刻意.html" />
+<item id="ch16" media-type="text/x-oeb1-document" href="莊子_繕性.html" />
+<item id="ch17" media-type="text/x-oeb1-document" href="莊子_秋水.html" />
+<item id="ch18" media-type="text/x-oeb1-document" href="莊子_至樂.html" />
+<item id="ch19" media-type="text/x-oeb1-document" href="莊子_達生.html" />
+<item id="ch20" media-type="text/x-oeb1-document" href="莊子_山木.html" />
+<item id="ch21" media-type="text/x-oeb1-document" href="莊子_田子方.html" />
+<item id="ch22" media-type="text/x-oeb1-document" href="莊子_知北遊.html" />
+<item id="ch23" media-type="text/x-oeb1-document" href="莊子_庚桑楚.html" />
+<item id="ch24" media-type="text/x-oeb1-document" href="莊子_徐無鬼.html" />
+<item id="ch25" media-type="text/x-oeb1-document" href="莊子_則陽.html" />
+<item id="ch26" media-type="text/x-oeb1-document" href="莊子_外物.html" />
+<item id="ch27" media-type="text/x-oeb1-document" href="莊子_寓言.html" />
+<item id="ch28" media-type="text/x-oeb1-document" href="莊子_讓王.html" />
+<item id="ch29" media-type="text/x-oeb1-document" href="莊子_盜跖.html" />
+<item id="ch30" media-type="text/x-oeb1-document" href="莊子_說劍.html" />
+<item id="ch31" media-type="text/x-oeb1-document" href="莊子_漁父.html" />
+<item id="ch32" media-type="text/x-oeb1-document" href="莊子_列御寇.html" />
+<item id="ch33" media-type="text/x-oeb1-document" href="莊子_天下.html" />
+
+        <item id="ncx" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="text"/>
+        <itemref idref="content"/>
+<itemref idref="ch1"/>
+<itemref idref="ch2"/>
+<itemref idref="ch3"/>
+<itemref idref="ch4"/>
+<itemref idref="ch5"/>
+<itemref idref="ch6"/>
+<itemref idref="ch7"/>
+<itemref idref="ch8"/>
+<itemref idref="ch9"/>
+<itemref idref="ch10"/>
+<itemref idref="ch11"/>
+<itemref idref="ch12"/>
+<itemref idref="ch13"/>
+<itemref idref="ch14"/>
+<itemref idref="ch15"/>
+<itemref idref="ch16"/>
+<itemref idref="ch17"/>
+<itemref idref="ch18"/>
+<itemref idref="ch19"/>
+<itemref idref="ch20"/>
+<itemref idref="ch21"/>
+<itemref idref="ch22"/>
+<itemref idref="ch23"/>
+<itemref idref="ch24"/>
+<itemref idref="ch25"/>
+<itemref idref="ch26"/>
+<itemref idref="ch27"/>
+<itemref idref="ch28"/>
+<itemref idref="ch29"/>
+<itemref idref="ch30"/>
+<itemref idref="ch31"/>
+<itemref idref="ch32"/>
+<itemref idref="ch33"/>
+
+    </spine>
+    <guide>
+        <reference type="toc" title="Table of Contents" href="toc.html"/>
+        <reference type="text" title="莊子" href="welcome.html"/>
+    </guide>
+</package>

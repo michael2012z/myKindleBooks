@@ -1,0 +1,126 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<package unique-identifier="uid" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:asd="http://www.idpf.org/asdfaf">
+    <metadata>
+        <dc-metadata  xmlns:dc="http://purl.org/metadata/dublin_core" xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+            <dc:Title>禮記</dc:Title>
+            <dc:Language>zh-TW</dc:Language>
+            <dc:Creator>第二月</dc:Creator>
+            <dc:Copyrights>第二月</dc:Copyrights>
+            <dc:Publisher>第二月</dc:Publisher>
+        </dc-metadata>
+    </metadata>
+    <manifest>
+        <item id="text" media-type="text/x-oeb1-document" href="welcome.html"></item>
+        <item id="content" media-type="text/x-oeb1-document" href="toc.html"></item>
+<item id="ch1" media-type="text/x-oeb1-document" href="禮記_曲禮上.html" />
+<item id="ch2" media-type="text/x-oeb1-document" href="禮記_曲禮下.html" />
+<item id="ch3" media-type="text/x-oeb1-document" href="禮記_檀弓上.html" />
+<item id="ch4" media-type="text/x-oeb1-document" href="禮記_檀弓下.html" />
+<item id="ch5" media-type="text/x-oeb1-document" href="禮記_王制.html" />
+<item id="ch6" media-type="text/x-oeb1-document" href="禮記_月令.html" />
+<item id="ch7" media-type="text/x-oeb1-document" href="禮記_曾子問.html" />
+<item id="ch8" media-type="text/x-oeb1-document" href="禮記_文王世子.html" />
+<item id="ch9" media-type="text/x-oeb1-document" href="禮記_禮運.html" />
+<item id="ch10" media-type="text/x-oeb1-document" href="禮記_禮器.html" />
+<item id="ch11" media-type="text/x-oeb1-document" href="禮記_郊特牲.html" />
+<item id="ch12" media-type="text/x-oeb1-document" href="禮記_內則.html" />
+<item id="ch13" media-type="text/x-oeb1-document" href="禮記_玉藻.html" />
+<item id="ch14" media-type="text/x-oeb1-document" href="禮記_明堂位.html" />
+<item id="ch15" media-type="text/x-oeb1-document" href="禮記_喪服小記.html" />
+<item id="ch16" media-type="text/x-oeb1-document" href="禮記_大傳.html" />
+<item id="ch17" media-type="text/x-oeb1-document" href="禮記_少儀.html" />
+<item id="ch18" media-type="text/x-oeb1-document" href="禮記_學記.html" />
+<item id="ch19" media-type="text/x-oeb1-document" href="禮記_樂記.html" />
+<item id="ch20" media-type="text/x-oeb1-document" href="禮記_雜記上.html" />
+<item id="ch21" media-type="text/x-oeb1-document" href="禮記_雜記下.html" />
+<item id="ch22" media-type="text/x-oeb1-document" href="禮記_喪大記.html" />
+<item id="ch23" media-type="text/x-oeb1-document" href="禮記_祭法.html" />
+<item id="ch24" media-type="text/x-oeb1-document" href="禮記_祭義.html" />
+<item id="ch25" media-type="text/x-oeb1-document" href="禮記_祭統.html" />
+<item id="ch26" media-type="text/x-oeb1-document" href="禮記_經解.html" />
+<item id="ch27" media-type="text/x-oeb1-document" href="禮記_哀公問.html" />
+<item id="ch28" media-type="text/x-oeb1-document" href="禮記_仲尼燕居.html" />
+<item id="ch29" media-type="text/x-oeb1-document" href="禮記_孔子閒居.html" />
+<item id="ch30" media-type="text/x-oeb1-document" href="禮記_坊記.html" />
+<item id="ch31" media-type="text/x-oeb1-document" href="禮記_中庸.html" />
+<item id="ch32" media-type="text/x-oeb1-document" href="禮記_表記.html" />
+<item id="ch33" media-type="text/x-oeb1-document" href="禮記_緇衣.html" />
+<item id="ch34" media-type="text/x-oeb1-document" href="禮記_奔喪.html" />
+<item id="ch35" media-type="text/x-oeb1-document" href="禮記_問喪.html" />
+<item id="ch36" media-type="text/x-oeb1-document" href="禮記_服問.html" />
+<item id="ch37" media-type="text/x-oeb1-document" href="禮記_間傳.html" />
+<item id="ch38" media-type="text/x-oeb1-document" href="禮記_三年問.html" />
+<item id="ch39" media-type="text/x-oeb1-document" href="禮記_深衣.html" />
+<item id="ch40" media-type="text/x-oeb1-document" href="禮記_投壺.html" />
+<item id="ch41" media-type="text/x-oeb1-document" href="禮記_儒行.html" />
+<item id="ch42" media-type="text/x-oeb1-document" href="禮記_大學.html" />
+<item id="ch43" media-type="text/x-oeb1-document" href="禮記_冠義.html" />
+<item id="ch44" media-type="text/x-oeb1-document" href="禮記_昏義.html" />
+<item id="ch45" media-type="text/x-oeb1-document" href="禮記_鄉飲酒義.html" />
+<item id="ch46" media-type="text/x-oeb1-document" href="禮記_射義.html" />
+<item id="ch47" media-type="text/x-oeb1-document" href="禮記_燕義.html" />
+<item id="ch48" media-type="text/x-oeb1-document" href="禮記_聘義.html" />
+<item id="ch49" media-type="text/x-oeb1-document" href="禮記_喪服四制.html" />
+
+        <item id="ncx" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="text"/>
+        <itemref idref="content"/>
+<itemref idref="ch1"/>
+<itemref idref="ch2"/>
+<itemref idref="ch3"/>
+<itemref idref="ch4"/>
+<itemref idref="ch5"/>
+<itemref idref="ch6"/>
+<itemref idref="ch7"/>
+<itemref idref="ch8"/>
+<itemref idref="ch9"/>
+<itemref idref="ch10"/>
+<itemref idref="ch11"/>
+<itemref idref="ch12"/>
+<itemref idref="ch13"/>
+<itemref idref="ch14"/>
+<itemref idref="ch15"/>
+<itemref idref="ch16"/>
+<itemref idref="ch17"/>
+<itemref idref="ch18"/>
+<itemref idref="ch19"/>
+<itemref idref="ch20"/>
+<itemref idref="ch21"/>
+<itemref idref="ch22"/>
+<itemref idref="ch23"/>
+<itemref idref="ch24"/>
+<itemref idref="ch25"/>
+<itemref idref="ch26"/>
+<itemref idref="ch27"/>
+<itemref idref="ch28"/>
+<itemref idref="ch29"/>
+<itemref idref="ch30"/>
+<itemref idref="ch31"/>
+<itemref idref="ch32"/>
+<itemref idref="ch33"/>
+<itemref idref="ch34"/>
+<itemref idref="ch35"/>
+<itemref idref="ch36"/>
+<itemref idref="ch37"/>
+<itemref idref="ch38"/>
+<itemref idref="ch39"/>
+<itemref idref="ch40"/>
+<itemref idref="ch41"/>
+<itemref idref="ch42"/>
+<itemref idref="ch43"/>
+<itemref idref="ch44"/>
+<itemref idref="ch45"/>
+<itemref idref="ch46"/>
+<itemref idref="ch47"/>
+<itemref idref="ch48"/>
+<itemref idref="ch49"/>
+
+    </spine>
+    <guide>
+        <reference type="toc" title="Table of Contents" href="toc.html"/>
+        <reference type="text" title="禮記" href="welcome.html"/>
+    </guide>
+</package>

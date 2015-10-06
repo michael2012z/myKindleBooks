@@ -1,0 +1,287 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" 
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+ <head>
+ </head>
+        <docTitle>
+               <text>莊子</text>
+        </docTitle>
+    <navMap>
+
+		<navPoint id="toc" playOrder="1">
+			<navLabel>
+				<text>
+					Table of Contents
+				</text>
+			</navLabel>
+			<content src="toc.html#toc" />
+		</navPoint>
+		<navPoint id="ch1" playOrder="2">
+			<navLabel>
+				<text>
+					逍遙遊
+				</text>
+			</navLabel>
+			<content src="莊子_逍遙遊.html#ch1" />
+		</navPoint>
+		<navPoint id="ch2" playOrder="3">
+			<navLabel>
+				<text>
+					齊物論
+				</text>
+			</navLabel>
+			<content src="莊子_齊物論.html#ch2" />
+		</navPoint>
+		<navPoint id="ch3" playOrder="4">
+			<navLabel>
+				<text>
+					養生主
+				</text>
+			</navLabel>
+			<content src="莊子_養生主.html#ch3" />
+		</navPoint>
+		<navPoint id="ch4" playOrder="5">
+			<navLabel>
+				<text>
+					人間世
+				</text>
+			</navLabel>
+			<content src="莊子_人間世.html#ch4" />
+		</navPoint>
+		<navPoint id="ch5" playOrder="6">
+			<navLabel>
+				<text>
+					德充符
+				</text>
+			</navLabel>
+			<content src="莊子_德充符.html#ch5" />
+		</navPoint>
+		<navPoint id="ch6" playOrder="7">
+			<navLabel>
+				<text>
+					大宗師
+				</text>
+			</navLabel>
+			<content src="莊子_大宗師.html#ch6" />
+		</navPoint>
+		<navPoint id="ch7" playOrder="8">
+			<navLabel>
+				<text>
+					應帝王
+				</text>
+			</navLabel>
+			<content src="莊子_應帝王.html#ch7" />
+		</navPoint>
+		<navPoint id="ch8" playOrder="9">
+			<navLabel>
+				<text>
+					駢拇
+				</text>
+			</navLabel>
+			<content src="莊子_駢拇.html#ch8" />
+		</navPoint>
+		<navPoint id="ch9" playOrder="10">
+			<navLabel>
+				<text>
+					馬蹄
+				</text>
+			</navLabel>
+			<content src="莊子_馬蹄.html#ch9" />
+		</navPoint>
+		<navPoint id="ch10" playOrder="11">
+			<navLabel>
+				<text>
+					胠篋
+				</text>
+			</navLabel>
+			<content src="莊子_胠篋.html#ch10" />
+		</navPoint>
+		<navPoint id="ch11" playOrder="12">
+			<navLabel>
+				<text>
+					在宥
+				</text>
+			</navLabel>
+			<content src="莊子_在宥.html#ch11" />
+		</navPoint>
+		<navPoint id="ch12" playOrder="13">
+			<navLabel>
+				<text>
+					天地
+				</text>
+			</navLabel>
+			<content src="莊子_天地.html#ch12" />
+		</navPoint>
+		<navPoint id="ch13" playOrder="14">
+			<navLabel>
+				<text>
+					天道
+				</text>
+			</navLabel>
+			<content src="莊子_天道.html#ch13" />
+		</navPoint>
+		<navPoint id="ch14" playOrder="15">
+			<navLabel>
+				<text>
+					天運
+				</text>
+			</navLabel>
+			<content src="莊子_天運.html#ch14" />
+		</navPoint>
+		<navPoint id="ch15" playOrder="16">
+			<navLabel>
+				<text>
+					刻意
+				</text>
+			</navLabel>
+			<content src="莊子_刻意.html#ch15" />
+		</navPoint>
+		<navPoint id="ch16" playOrder="17">
+			<navLabel>
+				<text>
+					繕性
+				</text>
+			</navLabel>
+			<content src="莊子_繕性.html#ch16" />
+		</navPoint>
+		<navPoint id="ch17" playOrder="18">
+			<navLabel>
+				<text>
+					秋水
+				</text>
+			</navLabel>
+			<content src="莊子_秋水.html#ch17" />
+		</navPoint>
+		<navPoint id="ch18" playOrder="19">
+			<navLabel>
+				<text>
+					至樂
+				</text>
+			</navLabel>
+			<content src="莊子_至樂.html#ch18" />
+		</navPoint>
+		<navPoint id="ch19" playOrder="20">
+			<navLabel>
+				<text>
+					達生
+				</text>
+			</navLabel>
+			<content src="莊子_達生.html#ch19" />
+		</navPoint>
+		<navPoint id="ch20" playOrder="21">
+			<navLabel>
+				<text>
+					山木
+				</text>
+			</navLabel>
+			<content src="莊子_山木.html#ch20" />
+		</navPoint>
+		<navPoint id="ch21" playOrder="22">
+			<navLabel>
+				<text>
+					田子方
+				</text>
+			</navLabel>
+			<content src="莊子_田子方.html#ch21" />
+		</navPoint>
+		<navPoint id="ch22" playOrder="23">
+			<navLabel>
+				<text>
+					知北遊
+				</text>
+			</navLabel>
+			<content src="莊子_知北遊.html#ch22" />
+		</navPoint>
+		<navPoint id="ch23" playOrder="24">
+			<navLabel>
+				<text>
+					庚桑楚
+				</text>
+			</navLabel>
+			<content src="莊子_庚桑楚.html#ch23" />
+		</navPoint>
+		<navPoint id="ch24" playOrder="25">
+			<navLabel>
+				<text>
+					徐無鬼
+				</text>
+			</navLabel>
+			<content src="莊子_徐無鬼.html#ch24" />
+		</navPoint>
+		<navPoint id="ch25" playOrder="26">
+			<navLabel>
+				<text>
+					則陽
+				</text>
+			</navLabel>
+			<content src="莊子_則陽.html#ch25" />
+		</navPoint>
+		<navPoint id="ch26" playOrder="27">
+			<navLabel>
+				<text>
+					外物
+				</text>
+			</navLabel>
+			<content src="莊子_外物.html#ch26" />
+		</navPoint>
+		<navPoint id="ch27" playOrder="28">
+			<navLabel>
+				<text>
+					寓言
+				</text>
+			</navLabel>
+			<content src="莊子_寓言.html#ch27" />
+		</navPoint>
+		<navPoint id="ch28" playOrder="29">
+			<navLabel>
+				<text>
+					讓王
+				</text>
+			</navLabel>
+			<content src="莊子_讓王.html#ch28" />
+		</navPoint>
+		<navPoint id="ch29" playOrder="30">
+			<navLabel>
+				<text>
+					盜跖
+				</text>
+			</navLabel>
+			<content src="莊子_盜跖.html#ch29" />
+		</navPoint>
+		<navPoint id="ch30" playOrder="31">
+			<navLabel>
+				<text>
+					說劍
+				</text>
+			</navLabel>
+			<content src="莊子_說劍.html#ch30" />
+		</navPoint>
+		<navPoint id="ch31" playOrder="32">
+			<navLabel>
+				<text>
+					漁父
+				</text>
+			</navLabel>
+			<content src="莊子_漁父.html#ch31" />
+		</navPoint>
+		<navPoint id="ch32" playOrder="33">
+			<navLabel>
+				<text>
+					列御寇
+				</text>
+			</navLabel>
+			<content src="莊子_列御寇.html#ch32" />
+		</navPoint>
+		<navPoint id="ch33" playOrder="34">
+			<navLabel>
+				<text>
+					天下
+				</text>
+			</navLabel>
+			<content src="莊子_天下.html#ch33" />
+		</navPoint>
+
+	</navMap>
+</ncx>

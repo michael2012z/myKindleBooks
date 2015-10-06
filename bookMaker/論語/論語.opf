@@ -1,0 +1,68 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<package unique-identifier="uid" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:asd="http://www.idpf.org/asdfaf">
+    <metadata>
+        <dc-metadata  xmlns:dc="http://purl.org/metadata/dublin_core" xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+            <dc:Title>論語</dc:Title>
+            <dc:Language>zh-TW</dc:Language>
+            <dc:Creator>第二月</dc:Creator>
+            <dc:Copyrights>第二月</dc:Copyrights>
+            <dc:Publisher>第二月</dc:Publisher>
+        </dc-metadata>
+    </metadata>
+    <manifest>
+        <item id="text" media-type="text/x-oeb1-document" href="welcome.html"></item>
+        <item id="content" media-type="text/x-oeb1-document" href="toc.html"></item>
+<item id="ch1" media-type="text/x-oeb1-document" href="論語_學而.html" />
+<item id="ch2" media-type="text/x-oeb1-document" href="論語_為政.html" />
+<item id="ch3" media-type="text/x-oeb1-document" href="論語_八佾.html" />
+<item id="ch4" media-type="text/x-oeb1-document" href="論語_里仁.html" />
+<item id="ch5" media-type="text/x-oeb1-document" href="論語_公冶長.html" />
+<item id="ch6" media-type="text/x-oeb1-document" href="論語_雍也.html" />
+<item id="ch7" media-type="text/x-oeb1-document" href="論語_述而.html" />
+<item id="ch8" media-type="text/x-oeb1-document" href="論語_泰伯.html" />
+<item id="ch9" media-type="text/x-oeb1-document" href="論語_子罕.html" />
+<item id="ch10" media-type="text/x-oeb1-document" href="論語_鄉黨.html" />
+<item id="ch11" media-type="text/x-oeb1-document" href="論語_先進.html" />
+<item id="ch12" media-type="text/x-oeb1-document" href="論語_顏淵.html" />
+<item id="ch13" media-type="text/x-oeb1-document" href="論語_子路.html" />
+<item id="ch14" media-type="text/x-oeb1-document" href="論語_憲問.html" />
+<item id="ch15" media-type="text/x-oeb1-document" href="論語_衛靈公.html" />
+<item id="ch16" media-type="text/x-oeb1-document" href="論語_季氏.html" />
+<item id="ch17" media-type="text/x-oeb1-document" href="論語_陽貨.html" />
+<item id="ch18" media-type="text/x-oeb1-document" href="論語_微子.html" />
+<item id="ch19" media-type="text/x-oeb1-document" href="論語_子張.html" />
+<item id="ch20" media-type="text/x-oeb1-document" href="論語_堯曰.html" />
+
+        <item id="ncx" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="text"/>
+        <itemref idref="content"/>
+<itemref idref="ch1"/>
+<itemref idref="ch2"/>
+<itemref idref="ch3"/>
+<itemref idref="ch4"/>
+<itemref idref="ch5"/>
+<itemref idref="ch6"/>
+<itemref idref="ch7"/>
+<itemref idref="ch8"/>
+<itemref idref="ch9"/>
+<itemref idref="ch10"/>
+<itemref idref="ch11"/>
+<itemref idref="ch12"/>
+<itemref idref="ch13"/>
+<itemref idref="ch14"/>
+<itemref idref="ch15"/>
+<itemref idref="ch16"/>
+<itemref idref="ch17"/>
+<itemref idref="ch18"/>
+<itemref idref="ch19"/>
+<itemref idref="ch20"/>
+
+    </spine>
+    <guide>
+        <reference type="toc" title="Table of Contents" href="toc.html"/>
+        <reference type="text" title="論語" href="welcome.html"/>
+    </guide>
+</package>
