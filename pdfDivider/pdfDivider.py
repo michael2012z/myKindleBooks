@@ -41,18 +41,33 @@ def dividePdfFileH(fileName, segments, overlapRate):
             output.addPage(spage)
     output.write(outputstream)
     outputstream.close()
+    return
+    # extra function under development
     pdfToPpmCmdText = 'pdftoppm -png -r 300 ' + targetFileName + ' ' + targetFileName[:-4] + '-tmp-'
     print pdfToPpmCmdText
-    os.system(pdfToPpmCmdText)
+    #os.system(pdfToPpmCmdText)
     rmCmdText = 'rm -f ' + targetFileName
     print rmCmdText
-    os.system(rmCmdText)
-    cvtCmdText = 'convert *-tmp-*.png ' + targetFileName
-    print cvtCmdText
-    os.system(cvtCmdText)
-    rmCmdText = 'rm -f *-tmp-*.png'
-    print rmCmdText
-    os.system(rmCmdText)
+    #os.system(rmCmdText)
+
+    lsCmdText = 'ls ' + targetFileName[:-4] + '-tmp-*.png'
+    f = os.popen(lsCmdText)
+    l = f.read()
+    l = l.split()
+    volumeIndex = 1
+    pageIndex = 0
+    for i in l:
+        pageIndex += 1
+        mvCmdText = 'mv ' + i + ' ' + targetFileName[:-4] + '-' + str(volumeIndex).zfill(2) + '-' + str((pageIndex-1)%120).zfill(6) + '.png'
+        os.system(mvCmdText)
+        if (pageIndex % 120 == 0) or (pageIndex == len(l)):
+            cvtCmdText = 'convert ' + targetFileName[:-4] + '-' + str(volumeIndex).zfill(2) + '-*.png ' + targetFileName[:-4] + '-' + str(volumeIndex).zfill(2) + '.pdf'
+            print cvtCmdText
+            os.system(cvtCmdText)
+#            rmCmdText = 'rm -f xxxxx-*.png'
+#            print rmCmdText
+#            os.system(rmCmdText)
+            volumeIndex += 1
     print "{} generated".format(targetFileName)
 
 # arguments
